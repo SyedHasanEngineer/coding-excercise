@@ -1,0 +1,13 @@
+set the virtual env in windows:
+	pip install virtualenvwrapper-win
+	mkvirtualenv newEnv
+	workon newEnv
+Install Requirement files:
+	pip install -r requrements.txt
+
+Migrate the date to sql db:
+	python data_migrate.py
+	
+Run the django server:
+	python manage.py runserver 
+	
